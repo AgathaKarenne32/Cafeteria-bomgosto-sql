@@ -1,0 +1,19 @@
+{
+  "name": "Cafeteria BomGosto Dev Environment",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+
+  // Encaminha a porta do banco de dados (útil para acesso externo, se necessário)
+  "forwardPorts": [3306],
+
+  // Instala as extensões do VS Code automaticamente no Codespace!
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "MatheusTeixeira.sqltools",
+        "MatheusTeixeira.sqltools-driver-mysql"
+      ]
+    }
+  }
+}

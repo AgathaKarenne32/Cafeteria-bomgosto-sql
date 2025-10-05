@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  # Este é o serviço principal, onde o VS Code e o terminal irão rodar.
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    
+    # Mantém o contêiner rodando.
+    command: sleep infinity
+
+  # Este é o nosso serviço de banco de dados MySQL.
+  db:
+    image: mysql:8.0
+    restart: unless-stopped
+    environment:
+      # Use a mesma senha ou uma nova, como preferir.
+      MYSQL_ROOT_PASSWORD: sua_senha_forte 
+      MYSQL_DATABASE: bomgosto
+    volumes:
+      # Este volume garante que os dados do seu banco não sejam perdidos.
+      - mysql-data:/var/lib/mysql
+
+volumes:
+  mysql-data:
