@@ -1,0 +1,79 @@
+[
+  {
+    "id_comanda": 1,
+    "data": "2025-10-01",
+    "numero_mesa": 5,
+    "nome_cliente": "João Silva",
+    "nome_cafe": "Cappuccino",
+    "descricao": "Espresso com leite vaporizado e uma cremosa espuma de leite.",
+    "quantidade": 1,
+    "preco_unitario": "8.50",
+    "preco_total_item": "8.50"
+  },
+  {
+    "id_comanda": 1,
+    "data": "2025-10-01",
+    "numero_mesa": 5,
+    "nome_cliente": "João Silva",
+    "nome_cafe": "Espresso",
+    "descricao": "Café puro e forte extraído sob alta pressão.",
+    "quantidade": 2,
+    "preco_unitario": "5.00",
+    "preco_total_item": "10.00"
+  },
+  {
+    "id_comanda": 2,
+    "data": "2025-10-01",
+    "numero_mesa": 2,
+    "nome_cliente": "Maria Oliveira",
+    "nome_cafe": "Latte",
+    "descricao": "Uma dose de espresso com uma maior quantidade de leite vaporizado.",
+    "quantidade": 1,
+    "preco_unitario": "9.00",
+    "preco_total_item": "9.00"
+  },
+  {
+    "id_comanda": 3,
+    "data": "2025-10-02",
+    "numero_mesa": 8,
+    "nome_cliente": "Carlos Pereira",
+    "nome_cafe": "Espresso",
+    "descricao": "Café puro e forte extraído sob alta pressão.",
+    "quantidade": 1,
+    "preco_unitario": "5.00",
+    "preco_total_item": "5.00"
+  },
+  {
+    "id_comanda": 3,
+    "data": "2025-10-02",
+    "numero_mesa": 8,
+    "nome_cliente": "Carlos Pereira",
+    "nome_cafe": "Macchiato",
+    "descricao": "Espresso \"manchado\" com uma pequena quantidade de leite.",
+    "quantidade": 1,
+    "preco_unitario": "6.50",
+    "preco_total_item": "6.50"
+  },
+  {
+    "id_comanda": 3,
+    "data": "2025-10-02",
+    "numero_mesa": 8,
+    "nome_cliente": "Carlos Pereira",
+    "nome_cafe": "Mocha",
+    "descricao": "Uma deliciosa combinação de espresso, leite vaporizado e calda de chocolate.",
+    "quantidade": 2,
+    "preco_unitario": "12.00",
+    "preco_total_item": "24.00"
+  },
+  {
+    "id_comanda": 4,
+    "data": "2025-10-02",
+    "numero_mesa": 5,
+    "nome_cliente": "Ana Souza",
+    "nome_cafe": "Cappuccino",
+    "descricao": "Espresso com leite vaporizado e uma cremosa espuma de leite.",
+    "quantidade": 2,
+    "preco_unitario": "8.50",
+    "preco_total_item": "17.00"
+  }
+]

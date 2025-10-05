@@ -1,0 +1,16 @@
+[
+  {
+    "id_comanda": 1,
+    "data": "2025-10-01",
+    "numero_mesa": 5,
+    "nome_cliente": "João Silva",
+    "valor_total_comanda": "18.50"
+  },
+  {
+    "id_comanda": 3,
+    "data": "2025-10-02",
+    "numero_mesa": 8,
+    "nome_cliente": "Carlos Pereira",
+    "valor_total_comanda": "35.50"
+  }
+]
