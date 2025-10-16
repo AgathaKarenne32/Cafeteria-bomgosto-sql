@@ -1,8 +1,3 @@
--- Apaga as tabelas se elas já existirem, para podermos começar do zero.
-DROP TABLE IF EXISTS ItensComanda;
-DROP TABLE IF EXISTS Comanda;
-DROP TABLE IF EXISTS Cardapio;
-
 -- Tabela para o Cardápio de Cafés
 CREATE TABLE Cardapio (
     id_cardapio INT PRIMARY KEY AUTO_INCREMENT,
